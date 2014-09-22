@@ -6,7 +6,7 @@
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/cashlabs/insight.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -31,9 +31,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/cashlabs/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/cashlabs/insight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -47,7 +47,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/insight-bitcore-api/insight.js"
   },
   "dependencies": {
-    "insight-bitcore-api": "~0.1.9"
+    "insight-bitcore-api": "git://github.com/cashlabs/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
